@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.caixona {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.caixinha {
+  width: 15%;
+  height: 24vh;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  
+}
